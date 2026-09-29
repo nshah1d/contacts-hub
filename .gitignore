@@ -1,0 +1,8 @@
+node_modules/
+__pycache__/
+*.pyc
+server/config.php
+sources/*
+var/*
+.test-build/
+*.sqlite

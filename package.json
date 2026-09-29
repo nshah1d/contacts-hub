@@ -1,0 +1,17 @@
+{
+  "name": "project-nexus",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A directory-backed contact manager with loss-preserving edits and source-aware review.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:php": "node tests/php_gate.mjs",
+    "test:browser": "node tests/browser_gate.mjs",
+    "test:performance": "node tests/performance_gate.mjs",
+    "check": "node tools/check.mjs",
+    "benchmark": "node tools/benchmark.mjs"
+  }
+}

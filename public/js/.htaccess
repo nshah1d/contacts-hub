@@ -1,0 +1,4 @@
+# Application code and styles must be revalidated on every load; a stale cached module would run old behaviour.
+<IfModule mod_headers.c>
+    Header set Cache-Control "no-cache"
+</IfModule>
